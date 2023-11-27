@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website with Multiple Divs</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .container {
+      display: flex;
+      width: 100%;
+    }
+
+    .div {
+      width: 32%;
+      margin: 1%;
+      background-image: linear-gradient(to right, #f00, #000);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .div img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="div">
+      <img src="image1.jpg" alt="Image 1">
+      <h2>Image Title 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra facilisis.</p>
+      <a href="#" class="button">Learn More</a>
+    </div>
+
+    <div class="div">
+      <img src="image2.jpg" alt="Image 2">
+      <h2>Image Title 2</h2>
+      <p>Mauris blandit aliquet elit, eget tincidunt nunc ullamcorper. Sed semper lorem at lectus blandit sed tincidunt ipsum luctus. Sed condimentum augue id quam viverra facilisis.</p>
+      <a href="#" class="button">Learn More</a>
+    </div>
+
+    <div class="div">
+      <img src="image3.jpg" alt="Image 3">
+      <h2>Image Title 3</h2>
+      <p>Donec eget ex eros. Nullam ac lectus quam. Nullam vel eros nec ligula consectetur semper. Nullam id dolor sit amet ipsum consectetur eleifend.</p>
+      <a href="#" class="button">Learn More</a>
+    </div>
+  </div>
+
+</body>
+</html>
