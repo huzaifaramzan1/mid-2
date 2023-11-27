@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+nav{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.logo{
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 1em;
+    font-size: x-large;
+    display: flex;
+}
+.register{
+    background-color: white;
+}
+#home{
+    color: white;
+    justify-content: center;
+    align-items: center;
+}

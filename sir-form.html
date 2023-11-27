@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form</title>
+
+<style type="text/css">
+	
+	input[type=text]{
+			background-color: yellow;
+			color: pink;
+			width: 100%;
+			padding: 10px;
+			margin: 20px;
+			border: none;
+			border-bottom: 2px solid red;
+	}
+	input[type=text]:focus{
+		background-color: lightblue;
+		color: green;
+
+
+	}
+
+
+</style>
+
+</head>
+<body>
+
+<form>
+	<label for="Fname">First Name</label>
+	<input type="text" id="Fname" name="Fname" placeholder="Enter First Name" required>
+			<br>
+
+		<label for="password">Password</label>
+		<input type="password" id="password" name="Password">
+
+		<br>
+		<label for="number">Enter Number</label>
+	<input type="number" id="number" name="number">
+	<br>
+
+		<input type="radio" name="language" id="html" value= "html">
+		<label for="html"> HTML</label>
+			<br> 
+
+
+			<input type="radio" name="language" id="css" value= "css">
+					<label for="css"> CSS</label>
+
+			<br>
+			<label>Choose a Car</label><br>
+			<input type="checkbox" name="vehicle1" id="vehicle1" value="Bike">
+			<label for="vehicle1"> BIKE</label>
+				<br>
+			<input type="checkbox" name="vehicle2" id="vehicle2" value="Car">
+			<label for="vehicle2"> Car</label>
+					<br>
+			<input type="checkbox" name="vehicle3" id="vehicle3" value="Boat">
+			<label for="vehicle3"> Boat</label>
+			<br>
+			<label>Choose a Car</label>
+			<select id="cars" name="cars" multiple>
+				<option value="volve">Volve</option>
+				<option value="ABC">ABC</option>
+				<option value="XYZ">XYZ</option>
+				<option value="Audi">Audi</option>
+			</select>
+			<br>
+			<textarea name="message" rows="10" cols="100"></textarea>
+				<br>
+			<label for="color">Choose Color</label>
+			<input type="color" name="color" id="color">
+
+
+			<br>
+			<label for="date">Choose Date</label>
+			<input type="date" name="date" id="date">
+
+			<br>
+			<label for="file">Choose File</label>
+			<input type="file" name="file" id="file">
+
+
+				<br>
+			<label for="time">Choose Time (Optional)</label>
+			<input type="time" name="time" id="time">
+
+				<br>
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email">
+
+</form>
+
+
+
+
+</body>
+</html>
